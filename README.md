@@ -8,6 +8,7 @@
 - [Next.js](https://nextjs.org/docs)
 - [Node.js](https://nodejs.org/en/)
 - [Prisma](https://www.prisma.io/)
+- [Axios](https://axios-http.com/ptbr/docs/intro)
 
 # 📚 libraries:
 
