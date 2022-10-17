@@ -1,6 +1,7 @@
 # NLW-eSports
 
 ![Nlw-eSports](https://user-images.githubusercontent.com/102697831/193430635-d7846c53-5eda-4efc-9caf-f4669271a99e.png)
+![Ad](https://user-images.githubusercontent.com/102697831/196242771-43c483e7-593c-4a32-8ee8-ac4af573073f.png)
 
 # ⚙️ This project was developed with:
 
