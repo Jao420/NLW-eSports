@@ -22,5 +22,5 @@
 
 # Installing:
 ``` bash
-$ git clone git@github.com:Jaozim420/NLW-eSports.git 
+$ git clone https://github.com/Jaozim420/NLW-eSports.git
 ```
