@@ -3,7 +3,7 @@ import { Game } from '../types'
 import axios from 'axios'
 import Head from 'next/head'
 
-import { CreateAdBanner } from '../components/CreteAdBanner'
+import { CreateAdBanner } from '../components/CreateAdBanner'
 import { CreateAdModal } from '../components/CreateAdModal'
 import { GameBanner } from '../components/GameBanner'
 import * as Dialog from '@radix-ui/react-dialog'
