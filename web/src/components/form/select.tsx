@@ -2,13 +2,14 @@ import { useEffect, useState } from 'react'
 import * as PrimitiveSelect from '@radix-ui/react-select'
 import { CaretDown, Check } from 'phosphor-react'
 import { Game } from '../../types'
-import axios from 'axios'
+
+import { api } from '../../services/api'
 
 export function Select() {
   const [games, setGames] = useState<Game[]>([])
 
   useEffect(() => {
-    axios('http://localhost:3333/games').then((response) => {
+    api('/games').then((response) => {
       setGames(response.data)
     })
   }, [])

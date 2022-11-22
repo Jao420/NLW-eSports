@@ -8,7 +8,6 @@ import { Input } from './form/input'
 import { FormEvent, useEffect, useState } from 'react'
 import { Game } from '../types'
 
-import axios from 'axios'
 import { toast } from 'react-toastify'
 import { Select } from './form/select'
 import { api } from '../services/api'

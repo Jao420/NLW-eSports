@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
 import { Game } from '../types'
-import axios from 'axios'
 import Head from 'next/head'
 
 import { CreateAdBanner } from '../components/CreateAdBanner'
@@ -13,6 +12,7 @@ import { useKeenSlider } from 'keen-slider/react'
 import Image from 'next/image'
 import 'react-toastify/dist/ReactToastify.min.css'
 import 'keen-slider/keen-slider.min.css'
+import { api } from '../services/api'
 
 function Home() {
   const [games, setGames] = useState<Game[]>([])
@@ -60,7 +60,7 @@ function Home() {
   }
 
   useEffect(() => {
-    axios('http://localhost:3333/games').then((response) => {
+    api('/games').then((response) => {
       setGames(response.data)
     })
   }, [])
