@@ -60,9 +60,9 @@ export function CreateAdModal() {
     <Dialog.Portal>
       <Dialog.Overlay className="bg-black/60 inset-0 fixed" />
 
-      <Dialog.Content className="bg-[#2a2634] shadow-2xl shadow-black/50 fixed py-6 max-w-[480px] w-full rounded-lg px-6 md:px-10 text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+      <Dialog.Content className="bg-[#2a2634] shadow-2xl shadow-black/50 fixed  py-6 max-w-[480px] w-[95%] md:w-full rounded-lg px-3 md:px-10 text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
         <form onSubmit={handleCreateAd} className="mt-8 flex flex-col gap-4">
-          <main className="flex flex-col max-h-[60vh] gap-4 sm:overflow-visible overflow-auto">
+          <main className="flex flex-col max-h-[50vh]  md:max-h-[65vh] gap-4 sm:overflow-visible overflow-auto">
             <Dialog.Title className="text-3xl font-black">
               Publique um anúncio
             </Dialog.Title>
@@ -118,63 +118,56 @@ export function CreateAdModal() {
                     <ToggleGroup.Item
                       value="0"
                       title="Domingo"
-                      className={`sm:mr-0 mr-2 w-8 h-8 rounded ${
-                        weekDays.includes('0') ? 'bg-violet-500' : 'bg-zinc-900'
-                      }`}
+                      className={`sm:mr-0 mr-2 w-8 h-8 rounded ${weekDays.includes('0') ? 'bg-violet-500' : 'bg-zinc-900'
+                        }`}
                     >
                       D
                     </ToggleGroup.Item>
                     <ToggleGroup.Item
                       value="1"
                       title="Segunda"
-                      className={`sm:mr-0 mr-2 w-8 h-8 rounded ${
-                        weekDays.includes('1') ? 'bg-violet-500' : 'bg-zinc-900'
-                      }`}
+                      className={`sm:mr-0 mr-2 w-8 h-8 rounded ${weekDays.includes('1') ? 'bg-violet-500' : 'bg-zinc-900'
+                        }`}
                     >
                       S
                     </ToggleGroup.Item>
                     <ToggleGroup.Item
                       value="2"
                       title="Terça"
-                      className={`sm:mr-0 mr-2 w-8 h-8 rounded ${
-                        weekDays.includes('2') ? 'bg-violet-500' : 'bg-zinc-900'
-                      }`}
+                      className={`sm:mr-0 mr-2 w-8 h-8 rounded ${weekDays.includes('2') ? 'bg-violet-500' : 'bg-zinc-900'
+                        }`}
                     >
                       T
                     </ToggleGroup.Item>
                     <ToggleGroup.Item
                       value="3"
                       title="Quarta"
-                      className={`sm:mr-0 mr-2 w-8 h-8 rounded ${
-                        weekDays.includes('3') ? 'bg-violet-500' : 'bg-zinc-900'
-                      }`}
+                      className={`sm:mr-0 mr-2 w-8 h-8 rounded ${weekDays.includes('3') ? 'bg-violet-500' : 'bg-zinc-900'
+                        }`}
                     >
                       Q
                     </ToggleGroup.Item>
                     <ToggleGroup.Item
                       value="4"
                       title="Quinta"
-                      className={`sm:mr-0 mr-2 w-8 h-8 rounded ${
-                        weekDays.includes('4') ? 'bg-violet-500' : 'bg-zinc-900'
-                      }`}
+                      className={`sm:mr-0 mr-2 w-8 h-8 rounded ${weekDays.includes('4') ? 'bg-violet-500' : 'bg-zinc-900'
+                        }`}
                     >
                       Q
                     </ToggleGroup.Item>
                     <ToggleGroup.Item
                       value="5"
                       title="Sexta"
-                      className={`sm:mr-0 mr-2 w-8 h-8 rounded ${
-                        weekDays.includes('5') ? 'bg-violet-500' : 'bg-zinc-900'
-                      }`}
+                      className={`sm:mr-0 mr-2 w-8 h-8 rounded ${weekDays.includes('5') ? 'bg-violet-500' : 'bg-zinc-900'
+                        }`}
                     >
                       S
                     </ToggleGroup.Item>
                     <ToggleGroup.Item
                       value="6"
                       title="Sábado"
-                      className={`sm:mr-0 mr-2 w-8 h-8 rounded ${
-                        weekDays.includes('6') ? 'bg-violet-500' : 'bg-zinc-900'
-                      }`}
+                      className={`sm:mr-0 mr-2 w-8 h-8 rounded ${weekDays.includes('6') ? 'bg-violet-500' : 'bg-zinc-900'
+                        }`}
                     >
                       S
                     </ToggleGroup.Item>
