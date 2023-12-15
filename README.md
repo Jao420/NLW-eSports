@@ -19,8 +19,3 @@
 - [radix](https://www.radix-ui.com/)
 - [react-toastify](https://www.npmjs.com/package/react-toastify)
 - [phosphor-icons](https://phosphoricons.com/)
-
-# Installing:
-``` bash
-$ git clone https://github.com/Jaozim420/NLW-eSports.git
-```
